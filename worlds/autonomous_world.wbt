@@ -1,0 +1,86 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation 0.25775139246484446 -0.08437884491308102 -0.9625198336728278 3.7520771421289543
+  position 1.4575175445879331 -1.2591107459457365 1.174909297083072
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+E-puck {
+  hidden position_0_0 26.183060795188723
+  hidden position_0_1 22.80981261477247
+  hidden linearVelocity_0 0.05479383053583428 0.03071245605247723 1.1474783091694879e-08
+  hidden angularVelocity_0 -0.0004615551107973912 0.000823455446608647 1.7184694213287634e-09
+  hidden rotation_1 0 1 0 1.0503195664703773
+  hidden linearVelocity_1 0.054797947326853245 0.030714763254865586 9.887721673145561e-12
+  hidden angularVelocity_1 -1.5357381286640757 2.7398973578494985 7.780408029312697e-08
+  hidden rotation_2 0 -1 0 2.3229286139458774
+  hidden linearVelocity_2 0.054797947106636234 0.0307147637326742 3.756495086448368e-11
+  hidden angularVelocity_2 -1.5357381961599246 2.739897320019367 -7.592495703541583e-08
+  translation 0.19364246739375074 0.3340150532306632 -6.394182504155382e-05
+  rotation -0.0007181250150230017 0.0027499323948030896 0.9999959610759869 0.5108779874597833
+  controller "Autonomous_navigation_controller"
+  turretSlot [
+    GPS {
+    }
+  ]
+}
+E-puck {
+  hidden position_0_0 3.1005879183730794e-08
+  hidden position_0_1 3.099468959469846e-08
+  hidden linearVelocity_0 -7.841538581283825e-05 4.249777558785274e-08 -3.686728812605778e-08
+  hidden angularVelocity_0 -2.8334397369080735e-06 -0.005228159623319366 1.0095071358911678e-10
+  hidden rotation_1 0 1 0 2.9802322387695313e-08
+  hidden linearVelocity_1 -0.00010455650655420134 5.666747742902072e-08 -4.565033373524404e-09
+  hidden angularVelocity_1 -2.833269509611569e-06 -0.005227849535711441 2.1985989959348702e-10
+  hidden rotation_2 0 1 0 2.9802322387695313e-08
+  hidden linearVelocity_2 -0.00010455650338667161 5.6662874516610856e-08 -4.593920843745196e-09
+  hidden angularVelocity_2 -2.8332745600888263e-06 -0.005227849415540909 -1.7956123621619147e-11
+  translation 0.0009462775777017251 0.31064642941329323 -6.394772974338721e-05
+  rotation 0.00024845263246403327 0.9099982471710819 -0.4146120215537028 0.0013074046308256958
+  name "e-puck_3"
+  controller "swarm_controller"
+  turretSlot [
+    GPS {
+    }
+  ]
+}
+E-puck {
+  hidden position_0_0 9.144799196613976e-08
+  hidden position_0_1 -3.019169625417817e-08
+  hidden rotation_1 0 1 0 8.940696716308595e-08
+  hidden rotation_2 0 -1 0 2.9802322387695313e-08
+  translation 0.3009468301228103 -0.30057410513160143 -6.401037090986682e-05
+  rotation -0.0002645915207812049 0.8513818458949863 -0.524546358744175 0.001034374852930627
+  name "e-puck_2"
+  controller "swarm_controller"
+  turretSlot [
+    GPS {
+    }
+  ]
+}
+E-puck {
+  hidden position_0_0 9.144799196613976e-08
+  hidden position_0_1 -3.019169625417817e-08
+  hidden rotation_1 0 1 0 8.940696716308595e-08
+  hidden rotation_2 0 -1 0 2.9802322387695313e-08
+  translation -0.29905316987718966 -0.30057410513160143 -6.401037090986682e-05
+  rotation -0.0002645915207812049 0.8513818458949863 -0.524546358744175 0.001034374852930627
+  name "e-puck_1"
+  controller "swarm_controller"
+  turretSlot [
+    GPS {
+    }
+  ]
+}
+RectangleArena {
+}
